@@ -1,0 +1,51 @@
+h1 {
+	font-size: 36;
+	font-weight: bold;
+	text-align: center;
+}
+
+#contact {
+	width: 310px;
+	padding: 10px;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-top: 50px;
+	font-weight: bold;
+	}
+
+#stamp {
+	position: relative;
+	margin-left: 63em;
+	margin-top: -6em;
+}
+
+#blogs {
+	position: relative;
+	font-size: 18px;
+	margin-top: 3em;
+}
+
+#blogs td{
+	padding: 0em 2em 0em 2em; 
+	width: 50%;
+}
+
+#table-links {
+	padding-top: 3em;
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+}
+
+#table-links td {
+	padding: 0em 2em 0em 2em;
+}
+
+body {
+	background-image: url("https://github.com/traceycarterDBC/traceycarterdbc.github.io/blob/master/imgs/airmail.png?raw=true");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: fixed;
+	font-family: Tahoma;
+}
