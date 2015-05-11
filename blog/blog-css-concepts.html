@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tracey's Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/blog-stylesheet.css">
+</head>
+
+
+<body>
+  <div id="contact"><a href="mailto:tracey_carter@post.harvard.edu">Tracey_Carter@post.harvard.edu</a><br>
+    <a href="https://www.linkedin.com/in/traceylynncarter">www.linkedin.com/in/traceylynncarter</a><br>
+    510-410-8967
+  </div>
+
+  <div id="stamp"><img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/000/242/0f0/2e85580.jpg" />
+  </div>
+  
+  <div id="blog-title">
+  <h1>CSS Concepts</h1>
+  <h4>May 10, 2015</h4><br>
+  </div>
+
+  <div id="text">
+        <p>
+        In addition to giving you control over how elements appear on a web page, CSS allows you to control where they appear. You can, for example, tell one picture to appear below a box of text. Or you can tell one object to appear behind another object. To control how the objects are moved, we must assign each object one of four different positions: static, absolute, relative, and fixed.</p>
+
+        <p>
+        <h2>STATIC</h2>
+        Static is what an element defaults to if you do not select any particular position. So, remember that when you have not included "position: _____" in the CSS, the object will automatically be static. An element that is static will simply fall wherever it would fall if you do not give it specific instructions on where to position itself. You do not have to do anything to render an object "static" since objects automatically default to it.</p>
+        
+        <p>
+        <h2>ABSOLUTE</h2>
+        Absolute is the position you should call an element if you want it to position itself in relation to another element. A position of "absolute" will cause an element to position itself in relation to the first of its parent elements that has a position other than static. An example would be if you wanted to have an h1 element, such as a title, center itself over a picture. Say you placed the picture exactly where you wanted it, meaning you did not simply let it fall where it wanted - in other words, you did not leave its position as static by default. To center a title above the picture, you should make that title element a child of the picture. Then, give the title element a position of "absolute." Then you can center the title element. This will make the title element a child of the picture, which we said was not "static." So, the title element will position itself relative to its parent, the picture, an image element. Your code would look like this:
+
+        <img src="Desktop/CSS concepts.png" />
+      </p>
+      <p>
+      <h2>RELATIVE</h2>
+      Relative is the position you would give to an element if you want to tell it where to move relative to where it would have been if it had been the default static position. For example, if you gave a <p>element a position of "relative," you could tell it to be 20 pixels down from where it would have been if it had been static.</p>
+
+      <p>
+      <h2>FIXED</h2>
+      Fixed is the last type of position in CSS. An element that is "fixed" is anchored to the browser window. When you scroll up and down the page, other elements (that are not set to "position: fixed") will move, but a fixed element will not.
+
+  </div>
+  
+  <div id="blog-links">
+    <table>
+      <tr>
+        <td><a href="http://traceycarterdbc.github.io/blog/t1-git-blog.html">Survival of the Fittest Code</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="http://traceycarterdbc.github.io/blog/c1-chefs-kitchen.html">Fireside Chat</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 3</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 4</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 5</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 6</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 7</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 8</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 9</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 10</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 11</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 12</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 13</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 14</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 15</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 16</a></td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
