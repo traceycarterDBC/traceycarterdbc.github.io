@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tracey's Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/blog-stylesheet.css">
+</head>
+
+
+<body>
+  <div id="contact"><a href="mailto:tracey_carter@post.harvard.edu">Tracey_Carter@post.harvard.edu</a><br>
+    <a href="https://www.linkedin.com/in/traceylynncarter">www.linkedin.com/in/traceylynncarter</a><br>
+    510-410-8967
+  </div>
+
+  <div id="stamp"><img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/000/242/0f0/2e85580.jpg" />
+  </div>
+  
+  <div id="blog-title">
+  <h1>Arrays vs. Hashes in Ruby</h1>
+  <h4>Today's Date</h4><br>
+  </div>
+
+  <div id="text">
+        <p>For the non-technical person, an easy way to distinguish between arrays and hashes is this...</p>
+        <p></p>
+        <h1>Arrays</h1>
+        <p>An array contains one list of things. That list can be things that are all members of a particular category, such as the following:
+        </p>
+        <p>
+        colors = ["red" , "blue" , "yellow" , "green" , "brown"]
+        </p>
+        <p>
+        The array, colors, contains five different colors: red, blue, yellow, green, and brown. This list is ordered, which is to say that each item in the list is assigned a place. The first place is assigned to zero. The second place to 1, and so on. For example, "green" would be assigned to 3. So, whenever you want to call up an item from the list, you can simply refer to it by its place. To call up the color green, I would say the following of the array, colors:
+        </p>
+        <p>
+        colors[3]
+        </p>
+        <p>
+        This means the item in position 3 in the array, colors. Green is in that position, so green would be called up. You could then use that item in a block of code to accomplish something with it.
+        </p>
+
+        <h1>Hashes</h1>
+        <p>Whereas an array is like a one list of items, a hash is like two lists of items. Hashes are unordered (except in later versions of Ruby), but they allow you to associate each item in the first list with an item in the second list. For example, you might want to associate one element, a person's name, with another element, his or her address. The following shows the formatting of a hash:
+        </p>
+        <p>address_list = {"Sue Thomas" => "114 Park Ave. Oakland, CA" , "Juan Gomez" => "4450 3rd Ave. San Francisco, CA" , "Mary Johnson" => "554 Main St. Fremont, CA"}
+        <p></p>
+        <p>The element on the left of the => or hash rocket, is called the key. The information on the right side of the hash rocket is called the value. While you cannot call a hash item by its numerical place (unless you assigned each value to a particular number, yourself), you can always use key to call up the value. For example, If I wanted to remember Mary Johnson's address, I would call it like this:</p>
+        <p>address_list["Mary Johnson"]</p>
+        <p>Ruby would return "554 main St. Fremont, CA" because that is the value associated with the key, "Mary Johnson".</p>
+        <h1>When to Use Arrays and Hashes</h1>
+        <p>As stated earlier, arrays are good containers for one list. That list will be ordered, so you can easily call up any of the items in the list according to its place in the list, which is automatically assigned a position on the list. A hash is best for situations in which you want to remember two different lists where each item in one list is associated with an item in the other list. The items in the first list will be the "keys" and items in the second list will be the "values". 
+  </div>
+  
+  <div id="blog-links">
+    <table>
+      <tr>
+        <td><a href="http://traceycarterdbc.github.io/blog/t1-git-blog.html">Survival of the Fittest Code</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="http://traceycarterdbc.github.io/blog/c1-chefs-kitchen.html">Fireside Chat</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 3</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 4</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 5</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 6</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 7</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 8</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 9</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 10</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 11</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 12</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 13</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 14</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 15</a></td>
+      </tr>
+      <tr>
+        <td><a href="#">Name of Blog 16</a></td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
