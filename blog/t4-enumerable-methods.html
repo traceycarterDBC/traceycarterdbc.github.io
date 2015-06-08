@@ -17,19 +17,33 @@
   </div>
   
   <div id="blog-title">
-  <h1>Ruby Enumerable Method: .map</h1>
+  <h1>Ruby Enumerable Methods: .each and .map</h1>
   <h4>Sunday, May 17, 2015</h4><br>
   </div>
 
   <div id="text">
-        <p>For the non-technical person, an easy way to distinguish between arrays and hashes is this...</p>
-        <h1>Subtitle</h1>
-        <p>blah blah
-        </p>
+        <h1>Enumerables: .each and .map</h1>
+        <p>Enumerables share code across certain classes. For example, arrays and hashes, both of which are structures for holding data, share enumerators. Enumerators are methods that allow you to go through each piece of data, or enumerable, stored in a data structure. The most basic of enumerators is the .each method. The .each method allows you to execute a block of code on each element stored in a data structure. Another really useful enumerable method in Ruby is the .map method. The .map method is similar to the .each method, except that the .each method immediately forgets the results of the code block executed while the .map method makes a new object out of the results of executing the code block on each enumerable. See below for examples. You might use the .each or .map method to alter the price of items in an array or hash. You would use the .each method to simply determine the new price, such as the normal price with a 30% discount. You would use the .map! method to permanently change the price of items in an array or a hash, such as when the cost of manufacturing increased and that increase is permanently carried on to the customer.</p>
+
+        <h1>.each Method</h1>
+        <p>The example below demonstrates what the .each method will do to an array:
+
+        <p>array = [2, 4, 6, 8, 10]</p>
+        <p>array.each do |number|</p>
+         <p>     number * 3</p>
+        <p>end</p>
+        <p>returns [6, 12, 18, 24, 30]</p>
         <p></p>
-        <p>blah blah</p>
-        <h1>Subtitle</h1>
-        <p>blah blah</p>
+        <p>In the .each method above, every element in the array executes the code in the block and is multiplied by three. Though it returns these values once, .each does not retain the new data, nor does it change the existing array.</p>
+
+        <h1>.map Method</h1>
+        <p>array = [2, 4, 6, 8, 10]</p>
+        <p>array.each do |number|</p>
+         <p>     number * 3</p>
+        <p>end</p>
+        <p>The .map method above creates a new object, an array with the results of the .map method having executed the block of code, [6, 12, 18, 24, 30]. Inside this method, array is now equal to [6, 12, 18, 24, 30], but outside the method, array will return to its original value, [2, 4, 6, 8, 10]. To make array change permanently to the result after executing the block of code, [6, 12, 18, 24, 30], would simply require the .map!@ method rather than the .map method.</p>
+
+
   </div>
   
   <div id="blog-links">
