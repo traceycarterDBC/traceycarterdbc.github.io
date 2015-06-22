@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="generic_cheat_sheet.css">  <!-- Insert a link to the stylesheet here -->
+
+    <title>JS: Constructor&Literal/title>
+    </title>
+  </head>
+  <body>
+    <header>
+      <div class="exp">JavaScript: Constructor Function vs. Literal Notation</div>
+    </header>
+    <p>
+      <div class="top_list">
+      <ul>
+        <li>Constructor Function --> Function Declaration</li>
+        <li>Literal Notation --> Function Expression</li>
+      </ul>
+      </div>
+    </p>
+    <div class="Functions">
+    <h2>Constructor Function</h2>
+      <p>
+        <ul>
+          <li>Defines a named function variable without requiring a variable assignment</li>
+          <li>Function declarations occur as a stand-alone construct and cannot be nested within non-function blocks.</li>
+          <li>Function declarations start with "function" (as variable declarations start with "var")</li>
+          <li>Also known as Function Declaration</li>
+        </ul>
+      </p>
+    <h3>Example of Constructor Function</h3>
+    <p>function bar() {}</p>
+    <p>return 3;</p>
+    <p>}</p>
+    <p></p>
+    <h2>Literal Notation</h2>
+      <p>
+        <ul>
+          <li>Defines a function as a part of a larger expression syntax (typically a variable assignment)</li>
+          <li>Functions defined via function expressions can be named or anonymous, but must NOT start with "function".</li>
+          <li>Also known as Function Expression</li>
+        </ul>
+      </p>
+      <h3>Examples of Function Expression</h3>
+        <h4>Anonymous Function Expression</h4>
+          <p>var a = function() {</p>
+          <p>return 3;</p>
+          <p>}</p>
+          <p></p>
+        <h4>Named function expression</h4>
+          <p>var a = function bar() {</p>
+          <p>return 3;</p>
+          <p>}</p>
+    </div>
+    </body>
+  </html>

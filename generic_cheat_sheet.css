@@ -1,0 +1,82 @@
+html{
+  background-color:#ffffff;
+}
+
+body{
+  color:#000080;
+}
+
+a:link{
+  color:#800080;
+}
+
+a:visited{
+  color:#ff0000;
+}
+
+.smallfont{
+  font-size:10px;
+}
+
+.footer{
+  text-align: center;
+  dislay: block;
+  text-size: 12px;
+}
+
+.footer-call{
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.line { 
+  width:100%; 
+  height:1px; 
+  background: #696969; 
+}
+
+#Comments{
+  font-size: 11px;
+}
+
+#Disclaimer{
+  display: block;
+}
+
+#copyright{
+  font-size: 11px;
+}
+
+span{
+  font-size:36px;
+}
+
+head{
+  font-weight:bold;
+}
+
+.exp{
+    display: block;
+    text-align:center;
+    font-weight:bold;
+    font-size: 36px;
+}
+
+.playa{
+  text-align: center;  
+  margin: 0 auto;
+  height: 20%;
+  width: 20%;
+}
+
+.top_list{
+  text-align: center;
+  font-family: fantasy;
+  color: green;
+}
+
+.functions{
+  
+}

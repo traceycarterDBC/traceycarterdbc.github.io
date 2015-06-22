@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CheatSheet1.css">  <!-- Insert a link to the stylesheet here -->
+  </head>
+
+  <body>
+    <header>
+      <h1>Getting to the SQL Shell in Terminal</h1>
+    </header>
+
+      <p>cat << EOF > ~/.sqliterc</p>
+      <p>.headers on</p>
+      <p>.mode column</p>
+      <p>EOF</p>
+      <p>Now type sqlite3 file_name.sqlite3. (This will open up the file using a SQLite shell) You will be able to experiment with SQL commands in the SQLite shell. View the schema for the database by calling .schema. You can quit the SQL shell by typing .exit</p>
