@@ -15,70 +15,78 @@
 
   <div id="stamp"><img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/000/242/0f0/2e85580.jpg" />
   </div>
-
+  
   <div id="blog-title">
-    <h1>Ruby & JavaScript</h1>
-    <h4>Sunday, June 15, 2015</h4><br>
+  <h1>Ruby & JavaScript</h1>
+  <h4>Sunday, June 15, 2015</h4><br>
   </div>
 
   <div id = "text">
-      <h2>Ruby Hashes vs. JavaScript Objects</h2>
-        <h3>JavaScript Object</h3>
-            <p class = "indent">
-            var terah = {
-            name: "Terah",
-            age: 32,
-            height: 66,
-            weight: 130,
-            hairColor: "brown",
-            eyeColor: "brown"
-            }
+  <h2>Ruby Hashes vs. JavaScript Objects</h2>
+  </div>
+    <div id="text" class ="sub-text">
+    <h3>JavaScript Object</h3>
+        <p>var terah = {
+        name: "Terah",
+        age: 32,
+        height: 66,
+        weight: 130,
+        hairColor: "brown",
+        eyeColor: "brown"
+        }
 
-            </p>
+        </p>
 
-        <h3>Ruby Hash</h3>
-          <p class = "indent">
-            <h4>Example 1:</h4><p> grades = { "Jane Doe" => 10, "Jim Doe" => 6 }</p>
-            <h4>Example 2:</h4><p> options = { :font_size => 10, :font_family => "Arial" }</p>
-            <h4>Example 3:</h4><p> options = { font_size: 10, font_family: "Arial" }</p>
-            <br></p>
-      <h2>Ruby classes vs. JavaScript constructor functions</h2>
-          <p class = "indent">
-          <h3>Ruby Class</h3>
-            <br>
-            class Die
-            def initialize(sides) <br>
-            raise ArgumentError if sides < 1 <br>
-            @sides = sides <br>
-            end <br>
-            <br>
-            attr_reader :sides <br>
-            <br>
-            def roll<br>
-            rand(@sides) + 1 <br>
-            end 
-            <br>
-            end
-            <br>
+    <h3>Ruby Hash</h3>
+        <h4>Example 1:</h4><p> grades = { "Jane Doe" => 10, "Jim Doe" => 6 }</p>
+        <h4>Example 2:</h4><p> options = { :font_size => 10, :font_family => "Arial" }</p>
+        <h4>Example 3:</h4><p> options = { font_size: 10, font_family: "Arial" }</p>
+        <p></p>
+    </div>
+  <div id = "text">
+  <h2>Ruby classes vs. JavaScript constructor functions</h2>
+  </div>
+    <div id="text" class ="sub-text">
+      <h3>Ruby Class</h3>
 
-        <h3>JavaScript Constructor Function</h3>
-            function bar() {}<br>
-            return 3;<br>
-            <br></p>
-      <h2>Ruby documentation vs. JavaScript documentation</h2>
-          <p class = "indent">
-            <p>The documentation for Ruby is much more organized and thorough than what appears to be available for JavaScript. While more people use and have documented JavaScript, the documentation suffers from not having a central location in which every topic and subtopic on JavaScript syntax, functions, and examples are presented in a clear and organized manner. Instead, one must often go into a tutorial to find an answer to a question about JavaScript or to see a good example of some piece of code one is trying to write. </p>
-            <p>Ruby, on the other hand, is very well covered in Ruby docs at http://ruby-doc.org/. This is a very well organized compilation of Ruby methods, data structures, syntax, etc. Examples can also be easily found for anything in Ruby.</p>
+        <p>class Die</p>
+        <p>def initialize(sides)</p>
+        <p>raise ArgumentError if sides < 1 </p>
+        <p>@sides = sides </p>
+        <p>end </p>
 
-=      <h2>Looping in Ruby vs. Looping in JavaScript</h2>
-        <p class = "indent">
-          <h3>A Ruby Loop</h3>
-            20.times do |i|<br>
-            puts "Like human languages, programming languages do the same stuff in different ways.<br>
-            end<br>
-          <h3>A JavaScript Loop</h3>
-            for (i=1; i<=20; i++)<br>
-            console.log('Like human languages, programming languages do the same stuff in different ways.'');<br>
+        <p>attr_reader :sides </p><p> </p>
+
+        <p>def roll</p>
+        <p>rand(@sides) + 1 </p>
+        <p>end </p>
+
+        <p>end</p>
+
+    <h3>JavaScript Constructor Function</h3>
+        <p>function bar() {}</p>
+        <p>return 3;</p>
+        <p>}</p>
+    </div>
+  <div id = "text">
+  <h2>Ruby documentation vs. JavaScript documentation</h2>
+  </div>
+      <div id="text" class ="sub-text">
+        <p>The documentation for Ruby is much more organized and thorough than what appears to be available for JavaScript. While more people use and have documented JavaScript, the documentation suffers from not having a central location in which every topic and subtopic on JavaScript syntax, functions, and examples are presented in a clear and organized manner. Instead, one must often go into a tutorial to find an answer to a question about JavaScript or to see a good example of some piece of code one is trying to write. </p>
+        <p>Ruby, on the other hand, is very well covered in Ruby docs at http://ruby-doc.org/. This is a very well organized compilation of Ruby methods, data structures, syntax, etc. Examples can also be easily found for anything in Ruby.</p>
+        <p></p>
+      </div>
+  <div id = "text">
+  <h2>Looping in Ruby vs. Looping in JavaScript</h2>
+  </div>
+    <div id="text" class ="sub-text">
+      <h3>A Ruby Loop</h3>
+        <p>20.times do |i|</p>
+        <p>puts "Like human languages, programming languages do the same stuff in different ways.</p>
+        <p>end</p><p></p>
+      <h3>A JavaScript Loop</h3>
+        <p>for (i=1; i<=20; i++)</p>
+        <p>console.log('Like human languages, programming languages do the same stuff in different ways.'');</p>
     </div>
   
   <div id="blog-links">
